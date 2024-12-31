@@ -92,7 +92,7 @@ CREATE TABLE order_items (
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mrkottu-pos.git
+git clone https://github.com/ChamathDilshanC/Web-Application-JavaEE.git
 cd mrkottu-pos
 ```
 
