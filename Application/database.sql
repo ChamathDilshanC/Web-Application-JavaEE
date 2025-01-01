@@ -4,9 +4,10 @@ USE MrKottu;
 
 -- Create customer table
 CREATE TABLE IF NOT EXISTS customer (
-    id VARCHAR(10) PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    address VARCHAR(200),
+    id  VARCHAR(50) PRIMARY KEY,
+    name VARCHAR(50),
+    address VARCHAR(100),
+    email VARCHAR(50),
     contact VARCHAR(15)
     );
 
