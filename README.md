@@ -40,6 +40,7 @@ Maintain detailed customer profiles and order history, enabling personalized ser
 CREATE TABLE customer (
     id VARCHAR(10) PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
+    email VARCHAR(50),
     address VARCHAR(200),
     contact VARCHAR(15)
 );
